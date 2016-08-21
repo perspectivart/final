@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'Aller_Light';
+  src: url(../fonts/Aller_Lt.ttf);
+}
+
+@font-face {
+  font-family: 'Aller_Regular';
+  src: url(../fonts/Aller_Rg.ttf);
+}
+
+@font-face {
+  font-family: 'Aller_Bold';
+  src: url(../fonts/Aller_Bd.ttf);
+}
+
+.slider{width:100%;
+		height:730px;
+		background-image: url(../images/slider.jpg);
+		background-repeat:none;
+		}
+.logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.tagline-orange{
+	font-family: 'Aller_Bold';
+	color:#ecdf14;
+	font-size:35pt;
+	text-align:center;
+	margin-top:100px;
+	}
+.tagline-white{
+	font-family: 'Aller_Bold';
+	color:#ffffff;
+	font-size:35pt;
+	text-align:center;
+	margin:0px;
+}
+.icon{margin-top:50px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;}
+.icon-text{text-align:center;
+			font-family:'Aller_Bold';
+			color:#ecdf14;
+			margin:0px;
+			padding-top:5px;}
+.icon-button:hover{opacity:0.4;
+		transition:opacity .3s ease;
+		}
+.packages-header{
+	background-color:#c86d14;
+	margin-top:-20px;
+	}
+.header{font-family:'Aller_Bold';
+		color:#ffffff;
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:5px;}
+.packages1{margin-top:15px;
+}
+.packages2{margin-top:20px;
+			}
+.package-image{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+		}
+.package-title{
+	font-family:'Aller_Regular';
+	color:#c86d14;
+	text-align:center;
+	margin-bottom:0px;
+	}
+.package-text{
+	text-align:center;
+	font-family:'Aller_Light';
+	color:#3f3f3f;
+	padding:5px 10px 0px 10px;
+	margin-bottom:0px;
+	}
+.package-link{
+	font-family:'Aller_Bold';
+	text-align:center;
+	font-size:14pt;
+	}
+.link{
+	color:#ecdf14;
+	}
+.link:hover{
+	color:#994e04;
+	text-decoration:none;
+	}
+.testimonials{
+	background-color:#c86d14;
+	margin-top:20px;
+	}
+.testimony-holder{
+	padding:10px 0px 30px 0px;}
+.testimonial-header{
+	font-family: 'Aller_Bold';
+	color:#ecdf14;
+	text-align:center;
+	}
+.testimony-title{
+	font-family:'Aller_Regular';
+	color:#ffffff;
+	padding-top:20px;
+	}
+.testimony-text{
+	font-family:'Aller_Light';
+	color:white;
+	}
+.gallery-header{
+	font-family:'Aller_Bold';
+	color:#c86d14;
+	text-align:center;
+	padding:10px 0px 10px 0px;
+	}
+
+.image-holder{
+	width:320px;
+	height:350px;
+	margin-bottom:30px;
+	box-shadow: 0px 3px 13px -3px rgba(102,102,102,1);
+	}
+.gallery-title{
+	font-family:'Aller_Regular';
+	color:#c86d14;
+	padding:8px 5px 0px 5px;
+	margin:0px
+	}
+.gallery-text{
+	font-family:'Aller_Light';
+	padding:0px 5px;
+	margin:0px;
+	}
+.subscribe{
+	background-color:#c86d14
+	}
+.subscribe-title{
+	font-family:'Aller_Bold';
+	color:#ecdf14;
+	padding-top:20px;
+	text-align:center;
+				}
+.subscribe-text{
+	font-family:'Aller_Regular';
+	color:#ffffff;
+	text-align:center;
+	}
+.subcribe-form{
+margin-bottom:20px;
+	}
+.subcribe-email{
+	width:70%;
+	height:40px;
+	border:0px;
+	float:left;
+	}
+.subscribe-btn{
+	width:30%;
+	height:40px;
+	background-color:#ecdf14;
+	border:0px;
+}
+.copyright{
+		font-family:'Aller_Regular';
+		color:#c86d14;
+		padding-bottom:20px;
+		text-align:center;
+		}
+.travel-slider{
+		width:100%;
+		height:250px;
+		background-image:url(../images/travel-header.jpg);
+			}
+.slider-text{
+			font-family:'Aller_Regular';
+			text-align:right;
+			margin-right:5%;
+			color:#ffffff;
+			font-size:30pt;
+			}
+.travel-title{
+			font-family:'Aller_Bold';
+			color:#c86d14;
+			}
+.travel-text{
+			font-family:'Aller_Regular';
+			color:#393939;
+			padding-top:10px;
+			border-top:2px solid #c86d14;
+			}
+.plan-travel{font-family:'Aller_Bold';
+		color:#393939;
+		}
+
+/*Styling faith page*/
+.faith-slider{
+		width:100%;
+		height:245px;
+		background-image:url(../images/faith.jpg);
+			}
+/*Styling Blog post page*/
+.blogpost-title{
+		font-family:'Aller_Bold';
+		color:#c86d14;
+		text-align:center;	
+		}
+.login-title{
+	text-align:center;
+	color:#a3a3a3;
+	font-family:'Aller_Regular';
+	
+	}

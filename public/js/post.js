@@ -9,6 +9,7 @@ $(document).ready(function(){
 			  processData:false,
 			  contentType:false,
 			  success:function(data){
+				  $("#post_form")[0].reset();
 				  $("#post_div").html(data);
 			  }
 		  });

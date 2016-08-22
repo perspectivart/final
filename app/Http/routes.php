@@ -37,9 +37,11 @@ Route::group(["middleware"=>["web"]],function(){
 
 			//save subscribers
 			Route::post('/subscribe',"MailList@sub");
+			//save posts
+			Route::post("/admin/save/post","post@post_save");
 
 			//view posts
-			//Route::get('/admin/view/post',"UserAuth@authenticate");
+			Route::get('/admin/view/post',"post@view_post");
 
 			//send mails
 			//Route::get('/admin/send/mail',"UserAuth@authenticate");

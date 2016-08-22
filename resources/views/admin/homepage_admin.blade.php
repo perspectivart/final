@@ -37,6 +37,8 @@
 					 
 					 
 				 </div>
+				 <div class="row" id="post_div">
+				 </div>
 			 </div>
    
    

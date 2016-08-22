@@ -8,6 +8,9 @@ use Password;
 use App\Http\Requests;
 use Validator;
 use App\User;
+use App\Post;
+use Auth;
+use App\File;
 
 class Admin extends Controller
 {
@@ -36,5 +39,6 @@ class Admin extends Controller
 		
 		
 	}
+	
 	
 }

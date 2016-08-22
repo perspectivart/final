@@ -41,7 +41,7 @@ class Allmigrations extends Migration
 			$table->foreign("user_id")->references("id")->on("users");
 			$table->text("title");
 			$table->text("body");
-            $table->integer("file_id")->unsigned();
+            $table->integer("file_id")->unsigned()->nullable();
 			$table->foreign("file_id")->references("id")->on("files");
 			$table->timestamps();
 			
